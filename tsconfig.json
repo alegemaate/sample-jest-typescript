@@ -8,7 +8,11 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "rootDir": "./src"
   },
-  "include": ["**/*.ts", "**/*.js", "**/*.json"]
+  "include": ["./src/**/*.ts", "./src/**/*.js", "./src/**/*.json"],
+  "exclude": ["node_modules", "dist", "coverage"]
 }
