@@ -15,3 +15,12 @@ export const add = (a: number, b: number) => a + b;
  * @returns The result of subtracting b from a.
  */
 export const subtract = (a: number, b: number) => a - b;
+
+/**
+ * Multiplies two numbers.
+ *
+ * @param a The first number.
+ * @param b The second number.
+ * @returns The product of the two numbers.
+ */
+export const multiply = (a: number, b: number) => a * b;
